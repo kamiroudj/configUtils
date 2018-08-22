@@ -1,0 +1,4 @@
+requêtes Sql :
+
+   ********update colonne table 
+update users  set password ="jJQgl2B8rhcqW1tyMGjtJw==" where uid=1;
