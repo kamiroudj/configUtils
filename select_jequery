@@ -1,5 +1,5 @@
-
-<%@ taglib prefix="sj"		<s:url var="remoteurl"  namespace="/" action="databaseJSON"/>
+<%@ taglib prefix="sj" uri="/struts-jquery-tags"%>
+<s:url var="remoteurl"  namespace="/" action="databaseJSON"/>
 			
 			<sj:select
 				href="%{remoteurl}"
