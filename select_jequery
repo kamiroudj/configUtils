@@ -1,0 +1,22 @@
+
+<%@ taglib prefix="sj"		<s:url var="remoteurl"  namespace="/" action="databaseJSON"/>
+			
+			<sj:select
+				href="%{remoteurl}"
+				id="echo"
+				name="echo"
+				list="teamsCode"
+				emptyOption="true"
+				headerKey="-1"
+				headerValue="Team Code"
+			/> uri="/struts-jquery-tags"%>
+
+<script type="text/javascript">
+var verprem = $.noConflict(true);
+</script>
+
+
+  <s:head/>
+  <sj:head jqueryui="true"/>
+  
+  
